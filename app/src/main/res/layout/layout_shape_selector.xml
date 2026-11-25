@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:cardBackgroundColor="@android:color/transparent"
+    app:cardCornerRadius="24dp"
+    app:cardElevation="12dp"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:background="@drawable/glass_toolbar_bg"
+        android:orientation="horizontal"
+        android:paddingHorizontal="12dp"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/btn_rect"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_rect"
+            android:scaleType="centerInside"
+            app:tint="#121212"
+            android:contentDescription="Rectangle" />
+
+        <Space android:layout_width="8dp" android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/btn_circle"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_circle"
+            android:scaleType="centerInside"
+            app:tint="#121212"
+            android:contentDescription="Circle" />
+
+        <Space android:layout_width="8dp" android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/btn_line"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_line"
+            android:scaleType="centerInside"
+            app:tint="#121212"
+            android:contentDescription="Line" />
+
+        <Space android:layout_width="8dp" android:layout_height="wrap_content" />
+
+        <ImageButton
+            android:id="@+id/btn_ruler"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:src="@drawable/ic_ruler"
+            android:scaleType="centerInside"
+            app:tint="#121212"
+            android:contentDescription="Ruler" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,39 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    // USERS COLLECTION: Strict isolation
+    match /users/{userId} {
+      // Only the owner can read or write their own profile and all subcollections
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+
+      match /{anyPath=**} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
+
+    // GROUPS COLLECTION
+    match /groups/{groupId} {
+      // Must be readable by all authenticated users to allow joining (checking existence/PIN)
+      allow read: if request.auth != null;
+
+      // Any authenticated user can create a group
+      allow create: if request.auth != null;
+
+      // Only the owner can update (settings) or delete the group
+      allow update, delete: if request.auth != null && request.auth.uid == resource.data.ownerId;
+
+      // Members subcollection and others
+      match /{allSubcollections=**} {
+        // Members within a group can read/write if they are authenticated
+        allow read, write: if request.auth != null;
+      }
+    }
+
+    // SETTINGS (Public Read)
+    match /settings/app_config {
+      allow read: if true;
+      allow write: if false;
+    }
+  }
+}

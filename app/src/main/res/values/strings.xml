@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">NoteTrail</string>
+    <string name="drag_handle">Drag handle</string>
+    <string name="drag_handle_description">Drag to move the toolbar</string>
+    <string name="no_history">No history found.</string>
+    <string name="enter_marks">Enter Marks</string>
+    <string name="folder_icon_desc">Folder icon</string>
+    <string name="total_papers_completed">Total Papers Completed</string>
+    <string name="menu_settings">Settings</string>
+    <string name="dark_mode_title">Dark Mode</string>
+    <string name="auto_mode">Auto</string>
+    <string name="light_mode">Light</string>
+    <string name="dark_mode">Dark</string>
+    <string name="menu_history">History</string>
+    <string name="version_info">Version Info</string>
+    <string name="status_incomplete">Incomplete</string>
+    <string name="login_to_view_history">Please log in to view your history.</string>
+    <string name="unknown_subject">Unknown Subject</string>
+    <string name="error_loading_history">Error loading history.</string>
+    <string name="default_web_client_id">1066742182394-alslpjnrkr1iedcm2tbingitsqr607ju.apps.googleusercontent.com</string>
+    <string name="subject_header_format">%1$s Grade</string>
+    <string name="subject_grade_format">Grade: %1$s</string>
+    <string name="paper_code_row_format">Paper %1$s: %2$s</string>
+    <string name="paper_variant_title">Variant</string>
+    <string name="status_completed">Completed</string>
+    <string name="marks_display_format">%1$d/%2$d</string>
+    <string name="marks_display_empty">--/--</string>
+    <string name="total_progress_format">Overall: %1$d%% (%2$d/%3$d solved)</string>
+
+    <!-- Toolbar Strings -->
+    <string name="tool_hand">Hand Tool</string>
+    <string name="tool_pen">Pen Tool</string>
+    <string name="tool_highlighter">Highlighter Tool</string>
+    <string name="tool_shape">Shape Tool</string>
+    <string name="tool_eraser">Eraser Tool</string>
+    <string name="custom_color">Custom Color</string>
+    <string name="thickness_thin">Thin</string>
+    <string name="thickness_medium">Medium</string>
+    <string name="thickness_thick">Thick</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_redo">Redo</string>
+    <string name="action_toggle_layer">Toggle Visibility</string>
+    <string name="action_sync">Save Sync</string>
+
+    <!-- Group Strings -->
+    <string name="title_groups">Groups &amp; Leaderboard</string>
+    <string name="join_group">Join a Group</string>
+    <string name="create_group">Create a Group</string>
+    <string name="add_group">Add Group</string>
+    <string name="create_new_group">Create New Group</string>
+    <string name="btn_create">Create</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_join">Join</string>
+    <string name="hint_group_name">Group Name</string>
+    <string name="checkbox_make_private">Make Group Private</string>
+    <string name="hint_set_pin">Set 4-Digit PIN</string>
+    <string name="placeholder_pin_public">Leave empty for public</string>
+    <string name="hint_group_id">Group ID</string>
+    <string name="hint_enter_pin">Enter PIN (if required)</string>
+    <string name="toast_copied_id">Copied ID</string>
+    <string name="group_id_format">ID: %1$s</string>
+    <string name="user_name_you_format">%1$s (You)</string>
+    <string name="avg_score_format">%.1f%% Avg</string>
+    <string name="papers_solved_format">%d solved</string>
+    <string name="no_groups_found">No Groups Found</string>
+    <string name="no_groups_desc">Join or create a group to start competing with your friends!</string>
+    <string name="btn_leave">Leave</string>
+    <string name="leaderboard_title">Leaderboard</string>
+    <string name="copy_id_desc">Copy Group ID</string>
+    <string name="add_group_desc">Add or Create Group</string>
+    <string name="next_exam_countdown">Next Exam in %1$d Days, %2$d Hours</string>
+    <string name="exams_in_progress">Examinations in progress!</string>
+    <string name="loading_countdown">Loading countdown...</string>
+    <string name="session_title_format">%1$s %2$d</string>
+    <string name="paper_history_subtitle_format">%1$s - Marks: %2$d / %3$d</string>
+    <string name="eraser_size">Eraser Size: %1$d</string>
+    <string name="request_deletion_web"><u>Request Account Deletion (Web)</u></string>
+
+    <!-- About Section -->
+    <string name="about_title">About</string>
+    <string name="developer_label">Developer</string>
+    <string name="developer_name">Mechanical Axiom</string>
+    <string name="about_developer_title">About Developer</string>
+    <string name="app_description">NoteTrail is your ultimate companion for organizing notes and tracking progress.</string>
+    <string name="version_label">Version</string>
+
+    <!-- About Dialog Content -->
+    <string name="about_dialog_title">NoteTrail: IGCSE Past Paper Tracker</string>
+    <string name="about_dialog_subtitle">Master your IGCSE journey with NoteTrail.</string>
+    <string name="about_dialog_body">Built by a student, for students, NoteTrail is the ultimate companion for 10th-grade boards. Stop getting lost in folders of PDFs and start tracking your progress with precision. Whether you are tackling Biology, Physics, Chemistry, or French, NoteTrail keeps your study trail organized.\n\n<b>Key Features:</b>\n\n<b>Past Paper Tracker:</b> Log every paper you solve and monitor your score trends.\n\n<b>Syllabus Focus:</b> Designed specifically around the IGCSE curriculum.\n\n<b>Secure &amp; Private:</b> Your data is yours. We use high-level encryption to ensure your notes and progress stay private.\n\n<b>Student-Centric Design:</b> No clutter, no unnecessary ads—just pure productivity.</string>
+    <string name="about_dialog_dev_header">The Developer</string>
+    <string name="about_dialog_dev_info">NoteTrail is an independent project developed by Mechanical Axiom.\nLead Developer: <b>Sahil</b>.\n\nMy goal is to bridge the gap between complex engineering concepts and everyday utility. NoteTrail was born out of the necessity to stay organized during my own board exams, and now it\'s here to help you \"smash\" yours too.</string>
+
+    <!-- Email Verification -->
+    <string name="title_verify_email">Verify Your Email</string>
+    <string name="desc_verify_email">We\'ve sent a verification link to:\n<b>%1$s</b>\n\nPlease check your inbox (and spam folder) to continue.</string>
+    <string name="btn_check_verification">I\'ve Verified (Check Again)</string>
+    <string name="btn_resend_email">Resend Verification Email</string>
+    <string name="btn_back_to_login">Back to Login</string>
+    <string name="toast_verification_sent">Verification email sent.</string>
+    <string name="toast_still_not_verified">Still not verified. Please check your email.</string>
+    <string name="toast_verification_failed">Failed to send verification email.</string>
+    <string name="menu_analytics">Analytics</string>
+    <string name="title_analytics">Performance Analytics</string>
+    <string name="overall_grade">Overall Grade</string>
+    <string name="grade_trend">Grade Trend</string>
+    <string name="focus_subjects">Subjects to Focus On</string>
+    <string name="add_assessment">Add Assessment</string>
+    <string name="btn_close">Close</string>
+</resources>

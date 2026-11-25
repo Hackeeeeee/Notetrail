@@ -1,0 +1,31 @@
+# --- Secrets & signing (NEVER commit) ---
+*.jks
+*.keystore
+keystore.properties
+local.properties
+google-services.json
+service-account*.json
+*.pem
+.env
+
+# --- Gradle / Android build output ---
+.gradle/
+build/
+*/build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# --- Android Studio / IDE / Tooling ---
+.idea/
+*.iml
+.DS_Store
+.navigation/
+.artifacts/
+
+# --- Exam material (copyrighted, do not redistribute) ---
+*.pdf

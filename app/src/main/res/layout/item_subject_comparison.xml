@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp">
+
+    <TextView
+        android:id="@+id/subjectCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceSubtitle1"
+        android:textColor="?attr/colorOnSurface"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Physics (0625)" />
+
+    <TextView
+        android:id="@+id/groupAvgLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Group"
+        android:textAppearance="?attr/textAppearanceCaption"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/subjectCode" />
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/groupProgress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        app:indicatorColor="?attr/colorSecondary"
+        app:layout_constraintBottom_toBottomOf="@id/groupAvgLabel"
+        app:layout_constraintEnd_toStartOf="@+id/groupAvgText"
+        app:layout_constraintStart_toEndOf="@id/groupAvgLabel"
+        app:layout_constraintTop_toTopOf="@id/groupAvgLabel"
+        app:trackColor="?attr/colorSurfaceVariant"
+        app:trackCornerRadius="4dp"
+        app:trackThickness="4dp"
+        tools:progress="65" />
+
+    <TextView
+        android:id="@+id/groupAvgText"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceCaption"
+        android:textColor="?attr/colorOnSurface"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/groupAvgLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/groupAvgLabel"
+        tools:text="65.0%" />
+
+    <TextView
+        android:id="@+id/userAvgLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="You"
+        android:textAppearance="?attr/textAppearanceCaption"
+        android:textColor="?attr/colorOnSurfaceVariant"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/groupAvgLabel" />
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:id="@+id/userProgress"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="16dp"
+        app:indicatorColor="?attr/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="@id/userAvgLabel"
+        app:layout_constraintEnd_toStartOf="@+id/userAvgText"
+        app:layout_constraintStart_toEndOf="@id/userAvgLabel"
+        app:layout_constraintTop_toTopOf="@id/userAvgLabel"
+        app:trackColor="?attr/colorSurfaceVariant"
+        app:trackCornerRadius="4dp"
+        app:trackThickness="4dp"
+        tools:progress="82" />
+
+    <TextView
+        android:id="@+id/userAvgText"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceCaption"
+        android:textColor="?attr/colorOnSurface"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/userAvgLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/userAvgLabel"
+        tools:text="82.5%" />
+
+    <LinearLayout
+        android:id="@+id/papersContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone"
+        app:layout_constraintTop_toBottomOf="@id/userAvgLabel"
+        tools:visibility="visible" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

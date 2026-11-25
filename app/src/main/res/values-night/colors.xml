@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Text Colors -->
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#B3FFFFFF</color>
+
+    <!-- Background Colors -->
+    <color name="background_primary">#121212</color>
+    <color name="sidebar_background">#D9121212</color> <!-- 85% Dark -->
+    <color name="surface_primary">#1E1E1E</color>
+
+    <!-- Glassmorphism Overrides for Dark Mode -->
+    <color name="glass_surface">#1AFFFFFF</color> <!-- 10% White -->
+    <color name="glass_stroke">#33FFFFFF</color>  <!-- 20% White -->
+    <color name="glass_text_primary">#FFFFFF</color>
+    <color name="glass_text_secondary">#B3FFFFFF</color>
+    <color name="glass_dialog_background">#E61A1A1A</color> <!-- 90% Dark -->
+
+    <color name="toolbar_glass_background">#CC121212</color> <!-- 80% Black -->
+</resources>
