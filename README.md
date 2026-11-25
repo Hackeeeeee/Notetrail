@@ -142,3 +142,4 @@ the early stages, and I review, test and take responsibility for everything in t
   key is the next planned change.
 - Papers are fetched from a private content server; this repo does not include them.
 # Notetrail
+# Notetrail
