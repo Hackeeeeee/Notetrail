@@ -141,3 +141,4 @@ the early stages, and I review, test and take responsibility for everything in t
 - Note encryption currently uses a static test key. Replacing it with the per-device
   key is the next planned change.
 - Papers are fetched from a private content server; this repo does not include them.
+# Notetrail
